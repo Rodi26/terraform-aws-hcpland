@@ -36,6 +36,7 @@ variable "ssh_pub_key" {
 variable "ec2_source_ip_access" {
   description = "Authorize this source IP"
   type        = string
+  default     = ""
 }
 
 variable "transit_gateway" {
