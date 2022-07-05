@@ -13,7 +13,7 @@ variable "availability_zones" {
 variable "vpc_name" {
   description = "Name of the VPC"
   type        = string
-  default     = "sebastien-hcp-vpc"
+  default     = "rod-hcp-vpc"
 }
 
 variable "public_subnets" {
@@ -47,7 +47,7 @@ variable "transit_gateway" {
 variable "transit_gw_name" {
   description = "Name of the transit gateway"
   type        = string
-  default     = "sebastien-hcp-transit"
+  default     = "rod-hcp-transit"
 }
 
 variable "cgw_bgp_asn" {
